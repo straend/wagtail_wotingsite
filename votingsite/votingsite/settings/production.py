@@ -5,7 +5,6 @@ DEBUG = False
 
 if 'SECRET_KEY' in os.environ:
     SECRET_KEY = os.environ['SECRET_KEY']
-    print("Key from env", SECRET_KEY)
 else:
     import string
     from random import choice
