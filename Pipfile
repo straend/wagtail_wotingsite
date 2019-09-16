@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+django-debug-toolbar = "*"
+
+[packages]
+django = ">=2.2.5"
+wagtail = ">=2.6.1"
+django-bootstrap4 = "*"
+psycopg2-binary = "*"
+wagtail-photo-voter = "*"
+
+[requires]
+python_version = "3.7"
