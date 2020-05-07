@@ -22,6 +22,6 @@ sqlparse==0.3.0
 unidecode==1.1.1
 urllib3==1.25.8
 wagtail-photo-voter==0.9.5
-wagtail==2.8
+wagtail==2.8.2
 webencodings==0.5.1
 willow==1.3
