@@ -1,5 +1,9 @@
 # Use an official Python runtime as a parent image
 FROM python:3.8
+RUN apt-get update && apt-get install -y --no-install-recommends \
+                exiftool \
+        && rm -rf /var/lib/apt/lists/*
+
 LABEL maintainer="hello@wagtail.io"
 
 # Set environment varibles

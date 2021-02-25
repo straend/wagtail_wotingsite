@@ -35,10 +35,11 @@ services:
       - static-data:/srv/static
       - ./nginx.conf:/etc/nginx/conf.d/default.conf
     labels:
-      traefik.enable: "true"
-      traefik.frontend.rule: "Host:$HOSTNAME"
-      traefik.port: "80"
-      traefik.docker.network: "web"
+      - "traefik.enable=true"
+      - "traefik.http.routers.voter.rule=Host(`$HOSTNAME`)"
+      - "traefik.http.routers.voter.entrypoints=$TRAEFIK_ENTRYPOINT"
+      - "traefik.http.routers.voter.tls.certresolver=$TRAEFIK_CERTRESOLVER"
+      - "traefik.http.services.voter.loadbalancer.server.port=80"
     depends_on:
       - app
     networks:
