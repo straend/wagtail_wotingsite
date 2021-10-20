@@ -31,7 +31,7 @@ sqlparse==0.4.1
 tablib[xls,xlsx]==3.0.0
 urllib3==1.26.4
 wagtail-photo-voter==0.9.10
-wagtail==2.12.2
+wagtail==2.12.5
 webencodings==0.5.1
 willow==1.4
 xlrd==2.0.1
