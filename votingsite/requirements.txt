@@ -27,7 +27,7 @@ pytz==2021.1
 requests==2.25.1
 six==1.15.0
 soupsieve==2.2.1
-sqlparse==0.4.1
+sqlparse==0.4.2
 tablib[xls,xlsx]==3.0.0
 urllib3==1.26.4
 wagtail-photo-voter==0.9.10
