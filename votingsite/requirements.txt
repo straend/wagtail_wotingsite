@@ -29,7 +29,7 @@ six==1.15.0
 soupsieve==2.2.1
 sqlparse==0.4.1
 tablib[xls,xlsx]==3.0.0
-urllib3==1.26.4
+urllib3==1.26.5
 wagtail-photo-voter==0.9.10
 wagtail==2.12.2
 webencodings==0.5.1
