@@ -2,7 +2,7 @@
 anyascii==0.1.7
 asgiref==3.3.4
 beautifulsoup4==4.8.2
-certifi==2020.12.5
+certifi==2022.12.7
 chardet==4.0.0
 choicesenum==0.7.0
 django-bootstrap4==2.3.1
