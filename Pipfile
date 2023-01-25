@@ -7,11 +7,12 @@ verify_ssl = true
 django-debug-toolbar = "*"
 
 [packages]
-django = ">=3.0.3"
-wagtail = ">=2.12"
+django = ">=4.1"
+wagtail = ">=4.1"
 django-bootstrap4 = "*"
 psycopg2-binary = "*"
-wagtail-photo-voter = ">=0.9.10"
+wagtail-photo-voter = ">=0.10.3"
+#wagtail-photo-voter = {path = "../wagtail_photo_voter", editable = true}
 django-simple-history = "*"
 
 [requires]
